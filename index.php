@@ -205,7 +205,7 @@ Sign 👈Bray ad [here](http://telegram.me/mench) Click",
     ]);
 }else {
     bridge("forwardMessage", [
-        'chat_id' => '-1001086770485',
+        'chat_id' => $channeluse,
         'from_chat_id' => $chat_id,
         'message_id' => $message_id
     ]);
